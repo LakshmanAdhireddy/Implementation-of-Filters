@@ -28,9 +28,13 @@ Plot the images of the original one and the filtered one using plt.figure() and 
 ### Register Number:212222240001
 
 import cv2
+
 import numpy as np
+
 import matplotlib.pyplot as plt
-image = cv2.imread("dog.jpeg")
+
+image = cv2.imread("cat.jpeg")
+
 original_image = cv2.cvtColor(image,cv2.COLOR_BGR2RGB)
 ### 1. Smoothing Filters
 
